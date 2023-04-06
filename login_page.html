@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="background h-[100vh] bg-gradient-to-r from-[#FFFFD2] to-[#A8D8EA] overflow-hidden">
+        <div class="content text-blue-900 bg-white h-[25rem] w-72 p-8 rounded-[1.7rem] transform translate-y-[40%] translate-x-[15%] md:transform md:translate-x-[85%] lg:w-96 2xl:relative 2xl:left-[12rem]">
+            <form action="#" method="get" class="transform -translate-y-3">
+                <label for="name">
+                <div class="fname text-xl font-semibold transform translate-x-[7%] m-2">
+                    Username :
+                </div>   <input type="text" class="transform translate-x-[10%] bg-slate-200 outline-transparent rounded-xl p-1 w-[85%] hover:outline-blue-500 hover:outline hover:ease-in-out hover:duration-200 hover:outline-[3.5px]">
+                </label>
+
+                <label for="psswrd">
+                    <div class="psswrd text-xl font-semibold transform translate-x-[7%] m-2">
+                        Password :
+                    </div>   <input type="password" class="transform translate-x-[10%] bg-slate-200 outline-transparent rounded-xl p-1 w-[85%] hover:outline-blue-500 hover:outline hover:ease-in-out hover:duration-200 hover:outline-[3.5px]">
+                    </label>
+
+                    <label for="forgot">
+                        <div class="forgotpss font-medium hover:text-black hover:underline transform translate-x-[18%] translate-y-[100%] lg:translate-x-24">
+                            Forgot password?
+                        </div>
+                    </label>
+
+                    <button class="bg-[#2B3467] text-white rounded-xl m-6 transform translate-x-[20%] translate-y-[40%] mr-10 pr-10 pl-10 pt-2 pb-2 lg:-translate-x-[1rem] lg:w-full lg:hover:text-black lg:hover:bg-transparent lg:hover:outline lg:hover:outline-2 lg:hover:font-semibold lg:hover:outline-black lg:ease-out lg:duration-500"><a href="#">Login</a></button>
+
+                 <div class="log_ops transform translate-x-[30%] translate-y-[10%]">
+                    <div class="logwih flex flex-col lg:translate-x-5">
+                        Login Using
+                       <div class="icons text-center mt-2 text-xl flex gap-3 cursor-pointer ">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-google"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                       </div>
+                    </div>
+                 </div>
+
+                    <div class="signup_op mt-5 ml-8 capitalize lg:translate-x-12">
+                        signup using
+                        <a href="sighup_page.html" class="underline hover:text-black hover:font-semibold">Sign up</a>
+                    </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

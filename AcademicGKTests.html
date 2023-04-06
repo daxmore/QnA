@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic GK Tests</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        function result() {
+            var score = 0;
+            if (document.getElementById('correct1').checked) {
+                score++;
+            }
+            if (document.getElementById('correct2').checked) {
+                score++;
+            }
+            if (document.getElementById('correct3').checked) {
+                score++;
+            }
+
+            if (document.getElementById('correct4').checked) {
+                score++;
+            }
+            if (document.getElementById('correct5').checked) {
+                score++;
+            }
+            if (document.getElementById('correct6').checked) {
+                score++;
+            }
+
+            if (document.getElementById('correct7').checked) {
+                score++;
+            }
+            if (document.getElementById('correct8').checked) {
+                score++;
+            }
+            if (document.getElementById('correct9').checked) {
+                score++;
+            }
+            if (document.getElementById('correct10').checked) {
+                score++;
+            }
+            if (document.getElementById('correct11').checked) {
+                score++;
+            }
+            if (document.getElementById('correct12').checked) {
+                score++;
+            }
+            if (document.getElementById('correct13').checked) {
+                score++;
+            }
+            if (document.getElementById('correct14').checked) {
+                score++;
+            }
+            if (document.getElementById('correct15').checked) {
+                score++;
+            }
+            alert("Your Score Is : " + score + "/15");
+        }
+    </script>
+</head>
+
+<body class="bg-[#FCFFE7] font-serif">
+    <header>
+        <!-- the nav bar -->
+        <nav
+            class="navbar bg-[#FCBAD3] flex w-[100%] overflow-hidden md:outline-none md:border-4 md:border-b-[#693d4e]">
+            <div class="logo h-auto w-20 -mt-1 mb-0 md:-m-2 md:w-28 lg:w-36 lg:-m-7"><img src="dinos.png" alt="logo">
+            </div>
+            <div
+                class="title_name leading-[4rem] justify-center text-center flex relative left-[3rem] text-[3.5rem] md:left-[14rem] md:top-3 lg:text-[6rem] lg:relative lg:left-[34rem] lg:leading-[5rem]">
+                Dinos</div>
+            <div
+                class="navbars1 bg-[#FCBAD3] p-5 leading-[4rem] lg:-translate-x-32 relative left-[17.5rem] lg:relative lg:left-[58rem] lg:bottom-[0rem] md:flex md:space-x-3 hidden list-none space-x-5 justify-center text-center capitalize">
+                <li class="hover:underline hover:text-[#422d72]"><a href="index.html">home</a></li>
+                <li class="hover:underline hover:text-[#422d72]"><a href="">dashboard</a></li>
+                <li class="hover:underline hover:text-[#422d72]"><a href="test.html">tests</a></li>
+                <li class="hover:underline hover:text-[#422d72]"><a href="about.html">about</a></li>
+                <button button class="text-2xl"><a href="login_page.html"
+                        class="text-3rounded-fullpl-5 pr-5 pt-3 pb-3 rounded-full bg-[#AA96DA] border-[#000] capitalize hover:outline-none hover:border-none hover:bg-[#A8D8EA] hover:text-black md:hidden lg:flex">login<i
+                            class="fa-solid fa-paper-plane lg:flex xl:scro xl:hidden"></i></a></button>
+
+            </div>
+        </nav>
+        <!-- mobile devise -->
+        <div
+            class="navbars bg-[#FCBAD3] p-5 leading-7 border-t-4 border-[#693d4e] flex list-none space-x-5 justify-center text-center capitalize md:hidden">
+            <li class="hover:underline hover:text-[#422d72]"><a href="index.html">home</a></li>
+            <li class="hover:underline hover:text-[#422d72]"><a href="">dashboard</a></li>
+            <li class="hover:underline hover:text-[#422d72]"><a href="test.html">tests</a></li>
+            <li class="hover:underline hover:text-[#422d72]"><a href="about.html">about</a></li>
+        </div>
+    </header>
+
+    <main>
+        <div class="mcqs bg-[#BAD7E9] translate-y-8 m-5 p-7 rounded-3xl">
+            <!-- 1 question -->
+            <div class="q1 mt-4">
+                <div class="quiz mb-3">
+                    Who is the author of the book "To Kill a Mockingbird"?
+                </div>
+                <div class="answer list-none">
+                    <li class="mt-2">
+                        <input type="checkbox" id="correct1">
+                        Harper Lee
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        William Faulkner
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        J.D. Salinge
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        F. Scott Fitzgerald
+                    </li>
+
+                </div>
+            </div>
+
+            <!-- 2 question  -->
+            <div class="q2 mt-4">
+                <div class="quiz mb-3">
+                    What is the smallest planet in our solar system?
+                </div>
+                <div class="answer list-none">
+                    <li class="mt-2">
+                        <input type="checkbox" value="5" id="correct2">
+                        <label for="5">Mercury
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        Venus
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        Earth
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        Mars
+                    </li>
+                </div>
+            </div>
+
+            <!-- 3 question  -->
+            <div class="q3 mt-4">
+                <div class="quiz mb-3">
+                    Who painted the famous artwork "The Last Supper"?
+                </div>
+                <div class="answer list-none">
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        Vincent van Gogh
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        Pablo Picasso
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        Michelangelo
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox" id="correct3">
+                        Leonardo da Vinci
+                    </li>
+                </div>
+            </div>
+
+            <!-- 4 question -->
+            <div class="q4 mt-4">
+                <div class="quiz mb-3">
+                    Which of the following elements is a metal?
+                </div>
+                <div class="answer list-none">
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        Carbon
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        Oxygen
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox" id="correct4">
+                        Copper
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        Nitrogen
+                    </li>
+                </div>
+            </div>
+
+            <!-- 5 question -->
+            <div class="q5 mt-4">
+                <div class="quiz mb-3">
+                    In which country would you find the cities of Mumbai and Kolkata?
+                </div>
+                <div class="answer list-none">
+                    <li class="mt-2">
+                        <input type="checkbox" id="correct" value="a">
+                        India
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        Japan
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox" id="correct5">
+                        China
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        Indonesia
+                    </li>
+                </div>
+            </div>
+
+            <!-- 6 question -->
+            <div class="q6 mt-4">
+                <div class="quiz mb-3">
+                    Who was the first president of the United States?
+                </div>
+                <div class="answer list-none">
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        Thomas Jefferson
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox" id="correct6">
+                        George Washington
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        John F. Kennedy
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        Abraham Lincoln
+                    </li>
+                </div>
+            </div>
+
+            <!-- 7 question -->
+            <div class="q7 mt-4">
+                <div class="quiz mb-3">
+                    What is the currency of Japan?
+                </div>
+                <div class="answer list-none">
+                    <li class="mt-2">
+                        <input type="checkbox" id="correct7" value="a">
+                        Yon
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        Won
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        Yuan
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        Euro
+                    </li>
+                </div>
+            </div>
+
+            <!-- 8 question -->
+            <div class="q8 mt-4">
+                <div class="quiz mb-3">
+                    Who wrote the play "Hamlet"?
+                </div>
+                <div class="answer list-none">
+                    <li class="mt-2">
+                        <input type="checkbox" value="a" id="correct8">
+                        William Shakespeare
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        Samuel Beckett
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        Oscar Wilde
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        Tennessee Williams
+                    </li>
+                </div>
+            </div>
+
+            <!-- 9 question -->
+            <div class="q9 mt-4">
+                <div class="quiz mb-3">
+                    What is the largest organ in the human body?
+                </div>
+                <div class="answer list-none">
+                    <li class="mt-2">
+                        <input type="checkbox" value="a">
+                        Brain
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        Liver
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox" id="correct9">
+                        Skin
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        Heart
+                    </li>
+                </div>
+            </div>
+
+            <!-- 10 question -->
+            <div class="q10 mt-4">
+                <div class="quiz mb-3">
+                    Which country is the largest producer of coffee in the world?
+                </div>
+                <div class="answer list-none">
+                    <li class="mt-2">
+                        <input type="checkbox" id="correct10">
+                        Brazil
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        Colombia
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        Vietnam
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        Indonesia
+                    </li>
+                </div>
+            </div>
+
+            <!-- 11 question -->
+            <div class="q11 mt-4">
+                <div class="quiz mb-3">
+                    Who is the founder of Microsoft?
+                </div>
+                <div class="answer list-none">
+                    <li class="mt-2">
+                        <input type="checkbox" value="a" id="correct11">
+                        Bill Gates
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        Steve Jobs
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        Mark Zuckerberg
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        Jeff Bezos
+                    </li>
+                </div>
+            </div>
+
+            <!-- 12 question -->
+            <div class="q12 mt-4">
+                <div class="quiz mb-3">
+                    Which of the following is not a primary color?
+                </div>
+                <div class="answer list-none">
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        Red
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        Blue
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        Yellow
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox" id="correct12">
+                        Purple
+                    </li>
+                </div>
+            </div>
+
+            <!-- 13 question -->
+            <div class="q13 mt-4">
+                <div class="quiz mb-3">
+                    Which country is known as the Land of the Rising Sun?
+                </div>
+                <div class="answer list-none">
+                    <li class="mt-2">
+                        <input type="checkbox" value="a" id="correct13">
+                        Japan
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        China
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        Korea
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        Thailand
+                    </li>
+                </div>
+            </div>
+
+            <!-- 14 question -->
+            <div class="q14 mt-4">
+                <div class="quiz mb-3">
+                    What is the largest organ in the human body?
+                </div>
+                <div class="answer list-none">
+                    <li class="mt-2">
+                        <input type="checkbox" value="a" id="correct14">
+                        George Orwell
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        Aldous Huxley
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        F. Scott Fitzgerald
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        Ernest Hemingway
+                    </li>
+                </div>
+            </div>
+
+            <!-- 15 question -->
+            <div class="q15 mt-4">
+                <div class="quiz mb-3">
+                    Which of the following is not a programming language?
+                </div>
+                <div class="answer list-none">
+                    <li class="mt-2">
+                        <input type="checkbox" value="a">
+                        Java
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        Python
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox">
+                        HTML
+                    </li>
+
+                    <li class="mt-2">
+                        <input type="checkbox" id="correct15">
+                        Photoshop
+                    </li>
+                </div>
+            </div>
+
+            <!-- submit button -->
+            <button id="next"
+                class=" translate-y-5 bg-[#5cd0df] border-black border-[1.6px] w-full rounded-3xl p-2 mb-4"
+                onclick="result()">Submit</button>
+        </div>
+    </main>
+</body>
+
+</html>
